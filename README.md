@@ -1,9 +1,9 @@
 # Databricks-terraform-stack
 The main.tf and variables.tf file will provide the logic to the create the following databricks resources:
 
-Cluster
-Notebook
-Job
+Cluster,
+Notebook,
+Job,
 Secret
 
 It will require access to an existing premium databricks workspace. The following snippet can be used as the main.tf and variables.tf files to create the premium workspace.
