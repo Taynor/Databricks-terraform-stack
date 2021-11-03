@@ -1,4 +1,4 @@
-# Databricks-terraform-stack
+# Databricks Terraform Stack
 The main.tf and variables.tf file will provide the logic to the create the following databricks resources:
 
 Cluster,
