@@ -93,7 +93,10 @@ resource "databricks_user" "new_analyst_user" {
   for_each = { for i, v in data.azuread_users.analystadusers.users: i => v }
     user_name     = each.value.user_principal_name
     display_name  = each.value.display_name 
-  force    = true    
+  force    = true   
+  lifecycle {
+    create_before_destroy = true
+  } 
 }
 
 resource "databricks_user" "new_developer_user" {

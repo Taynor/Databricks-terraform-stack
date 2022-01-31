@@ -58,4 +58,7 @@ resource "databricks_cluster_policy" "prod_cluster_policy" {
       "hidden" : true
     }
   })
+  lifecycle {
+    prevent_destroy = true
+  }
 }

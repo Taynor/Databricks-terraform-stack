@@ -270,5 +270,3 @@ module "cluster_permissions" {
   prod_group_name     = var.prod_group_name
   prod_cluster_name   = var.prod_cluster_name
 }
-
-#write up the depends on for the necessary modules
