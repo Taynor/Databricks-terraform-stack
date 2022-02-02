@@ -4,13 +4,13 @@ rgname = "databricksDev"
 
 wsname = "devopsws"
 
-client_id = "67d874e0-3df9-4eee-9c98-9ac700c2a668"
+client_id = "service principal client id"
 
-client_secret = "mSn7Q~D6.eR8uE3IoP.NwJ67TGxshB8UJ5H6o"
+client_secret = "service principal secret"
 
-tenant_id = "2a795970-e752-4ac7-b1c3-cf18c0ac82d4"
+tenant_id = "service principal tenant id"
 
-subscription_id = "523b680b-5c7b-42c7-ba35-0cf4f4b5f4ff"
+subscription_id = "subcription id"
 
 ad_analyst_group = "AZR-ANALYST"
 
