@@ -131,7 +131,6 @@ resource "databricks_job" "prodjob" {
   }
 }
 
-#newly created resource
 resource "databricks_job" "analystjob" {
   name = var.analyst_job_name
   new_cluster {
@@ -141,6 +140,9 @@ resource "databricks_job" "analystjob" {
   }
   notebook_task {
     notebook_path = data.databricks_notebook.analystnotebook.path
+  }
+  lifecycle {
+    prevent_destroy = true
   }
 }
 
@@ -153,5 +155,8 @@ resource "databricks_job" "engineerjob" {
   }
   notebook_task {
     notebook_path = data.databricks_notebook.engineernotebook.path
+  }
+  lifecycle {
+    prevent_destroy = true
   }
 }

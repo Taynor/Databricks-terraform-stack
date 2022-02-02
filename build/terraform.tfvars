@@ -4,13 +4,13 @@ rgname = "databricksDev"
 
 wsname = "devopsws"
 
-client_id = "client_id"
+client_id = "67d874e0-3df9-4eee-9c98-9ac700c2a668"
 
-client_secret = "client_secret"
+client_secret = "mSn7Q~D6.eR8uE3IoP.NwJ67TGxshB8UJ5H6o"
 
-tenant_id = "tenant_id"
+tenant_id = "2a795970-e752-4ac7-b1c3-cf18c0ac82d4"
 
-subscription_id = "subscription_id"
+subscription_id = "523b680b-5c7b-42c7-ba35-0cf4f4b5f4ff"
 
 ad_analyst_group = "AZR-ANALYST"
 
@@ -76,13 +76,13 @@ test_path = "/test"
 
 analyst_users = ["analysttest1@taynor1hotmailco.onmicrosoft.com", "analysttest2@taynor1hotmailco.onmicrosoft.com", "analysttest3@taynor1hotmailco.onmicrosoft.com"]
 
-dev_users = ["Devtest1@taynor1hotmailco.onmicrosoft.com", "Devtest2@taynor1hotmailco.onmicrosoft.com", "Devtest3@taynor1hotmailco.onmicrosoft.com"]
+dev_users = ["devtest1@taynor1hotmailco.onmicrosoft.com", "devtest2@taynor1hotmailco.onmicrosoft.com", "devtest3@taynor1hotmailco.onmicrosoft.com"]
 
 devops_users = ["devopstest1@taynor1hotmailco.onmicrosoft.com", "devopstest2@taynor1hotmailco.onmicrosoft.com", "devopstest3@taynor1hotmailco.onmicrosoft.com"]
 
 engineer_users = ["engineertest1@taynor1hotmailco.onmicrosoft.com", "engineertest2@taynor1hotmailco.onmicrosoft.com", "engineertest3@taynor1hotmailco.onmicrosoft.com"]
 
-ops_users = ["Opstest1@taynor1hotmailco.onmicrosoft.com", "Opstest2@taynor1hotmailco.onmicrosoft.com", "Opstest3@taynor1hotmailco.onmicrosoft.com"]
+ops_users = ["opstest1@taynor1hotmailco.onmicrosoft.com", "opstest2@taynor1hotmailco.onmicrosoft.com", "opstest3@taynor1hotmailco.onmicrosoft.com"]
 
 tester_users = ["testertest1@taynor1hotmailco.onmicrosoft.com", "testertest2@taynor1hotmailco.onmicrosoft.com", "testertest3@taynor1hotmailco.onmicrosoft.com"]
 

@@ -31,7 +31,6 @@ data "azurerm_databricks_workspace" "ws" {
   resource_group_name = var.rgname
 }
 
-#Must be commented out unless creating a new group
 module "workspace_groups" {
   source              = "./modules/workspace_groups"
   client_id           = var.client_id
