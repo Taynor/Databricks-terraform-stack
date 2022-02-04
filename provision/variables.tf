@@ -327,7 +327,7 @@ variable "test_path" {
 }
 variable "analyst_users" {
     description = <<EOF
-    "This is the demo list of users contained in list data structure, managed interactively
+    "This is the demo list of users contained in a list data structure, managed interactively
     with the terraform.tfvars. These users will be become members of the Analyst user group.
     This is a shared variable used in the following modules:
     - workspace_users"
@@ -336,7 +336,7 @@ variable "analyst_users" {
 }
 variable "dev_users" {
     description = <<EOF
-    "This is the demo list of users contained in list data structure, managed interactively
+    "This is the demo list of users contained in a list data structure, managed interactively
     with the terraform.tfvars. These users will be become members of the Developer user group.
     This is a shared variable used in the following modules:
     - workspace_users"
@@ -345,7 +345,7 @@ variable "dev_users" {
 }
 variable "devops_users" {
     description = <<EOF
-    "This is the demo list of users contained in list data structure, managed interactively
+    "This is the demo list of users contained in a list data structure, managed interactively
     with the terraform.tfvars. These users will be become members of the Devops user group.
     This is a shared variable used in the following modules:
     - workspace_users"
@@ -354,7 +354,7 @@ variable "devops_users" {
 }
 variable "engineer_users" {
     description = <<EOF
-    "This is the demo list of users contained in list data structure, managed interactively
+    "This is the demo list of users contained in a list data structure, managed interactively
     with the terraform.tfvars. These users will be become members of the Engineers user group.
     This is a shared variable used in the following modules:
     - workspace_users"
@@ -363,7 +363,7 @@ variable "engineer_users" {
 }
 variable "ops_users" {
     description = <<EOF
-    "This is the demo list of users contained in list data structure, managed interactively
+    "This is the demo list of users contained in a list data structure, managed interactively
     with the terraform.tfvars. These users will be become members of the Operations user group.
     This is a shared variable used in the following modules:
     - workspace_users"
@@ -372,7 +372,7 @@ variable "ops_users" {
 }
 variable "tester_users" {
     description = <<EOF
-    "This is the demo list of users contained in list data structure, managed interactively
+    "This is the demo list of users contained in a list data structure, managed interactively
     with the terraform.tfvars. These users will be become members of the Testers user group.
     This is a shared variable used in the following modules:
     - workspace_users"
